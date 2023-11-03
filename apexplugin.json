@@ -1,0 +1,36 @@
+{
+  "name": "Button Builder",
+  "version": "23.2.1",
+  "description": "A reimagining of Universal Theme's Button Builder as a Single Template Component. Shows buttons in IR Columns.",
+  "keywords": ["button","builder","IR", "single", "template", "component", "columns", "link"],
+  "homepage": "https://github.com/Pretius/pretius-button-builder-plugin",
+  "bugs": {
+    "url": "https://github.com/Pretius/pretius-button-builder-plugin/issues",
+    "email": "apex-plugins@pretius.com"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "commercially_supported":"Yes",
+  "author" : {
+    "name" : "Pretius",
+    "email" : "apex-plugins@pretius.com",
+    "url" : "http://www.pretius.com",
+    "twitter": "PretiusSoftware"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pretius/pretius-button-builder-plugin.git"
+  },
+  "oracle": {
+    "versions": ["23.2.0", "21.1.0", "19.1.0"],
+    "apex": {
+      "versions": ["23.2.0"],
+      "plugin": {
+        "internalName": "COM.PRETIUS.APEX.BUTTON_BUILDER",
+        "type": "template component",
+        "demo": "https://apex.oracle.com/pls/apex/r/luf/button-builder",
+        "previewImage": "https://raw.githubusercontent.com/Pretius/pretius-button-builder-plugin/main/assets/preview.png?raw=true"
+      }
+    }
+  }
+}
