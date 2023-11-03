@@ -33,7 +33,7 @@ prompt APPLICATION 160207 - Button Builder
 -- Application Export:
 --   Application:     160207
 --   Name:            Button Builder
---   Date and Time:   12:04 Wednesday November 1, 2023
+--   Date and Time:   10:39 Friday November 3, 2023
 --   Exported By:     MATT@GIZMA.COM
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -56,7 +56,7 @@ wwv_flow_imp_shared.create_plugin(
 ,p_plugin_type=>'TEMPLATE COMPONENT'
 ,p_theme_id=>nvl(wwv_flow_application_install.get_theme_id, '')
 ,p_name=>'COM.PRETIUS.APEX.BUTTON_BUILDER'
-,p_display_name=>'Button Builder'
+,p_display_name=>'Pretius Button Builder'
 ,p_supported_component_types=>'PARTIAL'
 ,p_partial_template=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '{if APEX$IS_LAZY_LOADING/}',

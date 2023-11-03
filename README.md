@@ -2,7 +2,7 @@
 
 ![](https://camo.githubusercontent.com/ecc911ca3b98cf4590fd5df675b881c2c5d0da0a0f324debc71a12f3b10d49c3/68747470733a2f2f63646e2e7261776769742e636f6d2f44616e69336c53756e2f617065782d6769746875622d6261646765732f62376539353334312f6261646765732f617065782d706c7567696e2d62616467652e737667) ![](https://img.shields.io/badge/Plug--In%20Type-Region-orange) ![](https://camo.githubusercontent.com/4a17d6080dcbbe1578ebf02df457866d16a517510d3b4c836b3e0a5ecb11b2ad/68747470733a2f2f63646e2e7261776769742e636f6d2f44616e69336c53756e2f617065782d6769746875622d6261646765732f37393139663931332f6261646765732f617065782d6c6f76652d62616467652e737667)
 
-- [What is the Pretius APEX Button Builder Plugin](#what-is-button-builder-plugin)
+- [What is the Pretius APEX Button Builder Plugin](#what-is-the-pretius-button-builder-plugin)
 - [Release History](#release-history)
 - [Installation](#installation)
 - [Plugin Usage](#usage)
@@ -11,9 +11,9 @@
 - [Free Support](#free-support)
 - [Commercial Support](#commercial-support)
 
-## What is Button Builder Plugin
+## What is the Pretius Button Builder Plugin
 
-Pretius Button Builder Plugin is an Oracle APEX region plugin developed by [Matt Mulvaney](https://twitter.com/Matt_Mulvaney) at <a href="https://www.pretius.com" title="https://www.pretius.com">Pretius</a>. 
+The Pretius Button Builder Plugin is an Oracle APEX Template Component plugin developed by [Matt Mulvaney](https://twitter.com/Matt_Mulvaney) at <a href="https://www.pretius.com" title="https://www.pretius.com">Pretius</a>. 
 
 This Plugin is a reimagining of Universal Theme's [Button Builder](https://apex.oracle.com/pls/apex/r/apex_pm/ut/button-builder) as a Single Template Component. 
 
