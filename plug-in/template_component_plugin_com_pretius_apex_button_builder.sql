@@ -19,7 +19,7 @@ whenever sqlerror exit sql.sqlcode rollback
 begin
 wwv_flow_imp.import_begin (
  p_version_yyyy_mm_dd=>'2023.10.31'
-,p_release=>'23.2.0-17'
+,p_release=>'23.2.4'
 ,p_default_workspace_id=>8205260902819239028
 ,p_default_application_id=>160207
 ,p_default_id_offset=>0
@@ -33,14 +33,14 @@ prompt APPLICATION 160207 - Button Builder
 -- Application Export:
 --   Application:     160207
 --   Name:            Button Builder
---   Date and Time:   10:39 Friday November 3, 2023
+--   Date and Time:   14:08 Tuesday April 30, 2024
 --   Exported By:     MATT@GIZMA.COM
 --   Flashback:       0
 --   Export Type:     Component Export
 --   Manifest
 --     PLUGIN: 13418591002924118969
 --   Manifest End
---   Version:         23.2.0-17
+--   Version:         23.2.4
 --   Instance ID:     63113759365424
 --
 
@@ -102,7 +102,7 @@ wwv_flow_imp_shared.create_plugin(
 '    {endcase/}',
 '    {case BUTTON_SET/}',
 '      {when FIRST_BUTTON/}t-Button--pillStart',
-'      {when INNTER_BUTTON/}t-Button--pill',
+'      {when INNER_BUTTON/}t-Button--pill',
 '      {when LAST_BUTTON/}t-Button--pillEnd',
 '    {endcase/}',
 '    {case WIDTH/}',
@@ -179,7 +179,7 @@ unistr('A reimagining of Universal Theme''s Button Builder as a Single Template 
 '        SPACING_BOTTOM:=DEFAULT',
 '    {apply COM.PRETIUS.APEX.BUTTON_BUILDER/}',
 '</pre>'))
-,p_version_identifier=>'23.2.1'
+,p_version_identifier=>'23.2.2'
 ,p_about_url=>'https://github.com/Pretius/pretius-button-builder-plugin'
 );
 wwv_flow_imp_shared.create_plugin_attr_group(

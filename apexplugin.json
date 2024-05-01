@@ -1,6 +1,6 @@
 {
   "name": "Pretius Button Builder",
-  "version": "23.2.1",
+  "version": "23.2.2",
   "description": "A reimagining of Universal Theme's Button Builder as a Single Template Component. Shows buttons in IR Columns.",
   "keywords": ["button","builder","IR", "single", "template", "component", "columns", "link"],
   "homepage": "https://github.com/Pretius/pretius-button-builder-plugin",

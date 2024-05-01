@@ -23,10 +23,13 @@ This allows you to show buttons in IR Columns with identical settings to the Uni
 
 
 ## Release History
+23.2.2: May 2024
+
+ - Fixed Button Set > Inner button
+
 23.2.1: November 2023
 
  - Initial version
-
 
 ## Installation
 1. Download the plug-in file from the latest release
